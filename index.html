@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+    <title>dIFardo</title>
+</head>
+
+<body>
+    <main>
+        <div id="aside-container">
+            <aside>
+                <div class="logo-container">
+                    <img src="ifsp.png" alt="Logo IFSP">
+                    <p>dIFardo</p>
+                </div>
+                <section>
+                    <ul class="sectionsList">
+                        <span class="toggleSec"></span>
+                        <li>
+                            <i id="home" class="fa-solid fa-house"></i>
+                            <p id="home">Home</p>
+                        </li>
+                        <li>
+                            <i id="products" class="fa-solid fa-database"></i>
+                            <p id="products">Produtos</p>
+                        </li>
+                        <li>
+                            <i id="new" class="fa-solid fa-temperature-low"></i>
+                            <p id="new">Cadastrar</p>
+                        </li>
+                    </ul>
+                </section>
+            </aside>
+        </div>
+        <section class="main-sec">
+            <nav class="navbar">
+                <div>
+                    <div class="search-container">
+                        <input type="text" name="search" placeholder="Procurar..." class="search-input">
+                        <a href="#" class="search-btn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="btn-container">
+                    <button id="btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <button>
+                        <i class="fa-regular fa-message"></i>
+                    </button>
+                    <button>
+                        <i class="fa-solid fa-qrcode"></i>
+                    </button>
+                    <button>
+                        <i class="fa-regular fa-user"></i>
+                    </button>
+                </div>
+            </nav>
+
+            <section class="container container-prod">
+                <div class="inside-container">
+                    <img src="https://novomundo.vteximg.com.br/arquivos/ids/1130609-1000-1000/geladeira-refrigerador-french-door-samsung-4-portas-564l-frost-free-inox-rf56k9040sr-110v-50173-0.jpg?v=636516247560300000"
+                        alt="Geladeira">
+                </div>
+                <div class="inside-container">
+                    <div class="text">
+                        <h1>Geladeira Eletrolux</h1>
+                        <h2>R$ 5999,99</h2>
+                        <p>50% OFF</p>
+                    </div>
+                </div>
+            </section>
+        
+
+            <h1 class="title" name="prods" id="prods">Mais Procurados</h1>
+
+            <section class="container containerSlider" style="margin: 20px auto;">
+                <div class="containerSlider">
+                    <input type="radio" name="dot" id="one">
+                    <input type="radio" name="dot" id="two">
+                    <div class="main-card">
+                        <div class="cards">
+                            <div class="card">
+                                <div class="content">
+                                    <div class="img">
+                                        <img src="img.jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <div class="name">Hamburguer</div>
+                                        <div class="job">R$ 25,00</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="content">
+                                    <div class="img">
+                                        <img src="img.jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <div class="name">Hamburguer</div>
+                                        <div class="job">R$ 25,00</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="content">
+                                    <div class="img">
+                                        <img src="img.jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <div class="name">Hamburguer</div>
+                                        <div class="job">R$ 25,00</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div class="card">
+                                <div class="content">
+                                    <div class="img">
+                                        <img src="img.jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <div class="name">Hamburguer</div>
+                                        <div class="job">R$ 25,00</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="content">
+                                    <div class="img">
+                                        <img src="img.jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <div class="name">Hamburguer</div>
+                                        <div class="job">R$ 25,00</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="content">
+                                    <div class="img">
+                                        <img src="img.jpg" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <div class="name">Hamburguer</div>
+                                        <div class="job">R$ 25,00</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <label for="one" class=" active one"></label>
+                        <label for="two" class="two"></label>
+                    </div>
+                </div>
+            </section>
+
+            <h1 class="title">Cadastrar Produto</h1>
+            
+            <section class="container containerNew" name="cad" id="cad">
+                <div class="containerSlider csForm">
+                    <input type="radio" name="dot" id="one">
+                    <input type="radio" name="dot" id="two">
+                    <div class="main-card">
+                        <div class="cards">
+                            <div class="card card-new">
+                                <div class="content">
+                                    <div class="img">
+                                        <img src="cad.png" alt="">
+                                    </div>
+                                    <div class="details">
+                                        <div class="name input-container">
+                                            <input type="text" placeholder="Nome do produto">
+                                        </div>
+                                        <div class="job input-container">
+                                            <input type="number" name="" id="" placeholder="Preço do produto">
+                                        </div>
+                                        <div class="name input-container submit">
+                                            <input type="submit" value="Salvar">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
+</body>
+<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="script.js"></script>
+
+</html>
