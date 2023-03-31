@@ -37,16 +37,22 @@
                     <ul class="sectionsList">
                         <span class="toggleSec"></span>
                         <li>
-                            <i id="home" class="fa-solid fa-house"></i>
-                            <p id="home">Home</p>
+                            <a href="#">
+                                <i id="home" class="fa-solid fa-house"></i>
+                                <p id="home">Home</p>
+                            </a>
                         </li>
                         <li>
-                            <i id="products" class="fa-solid fa-database"></i>
-                            <p id="products">Produtos</p>
+                            <a href="#prods">
+                                <i id="products" class="fa-solid fa-database"></i>
+                                <p id="products">Produtos</p>
+                            </a>
                         </li>
                         <li>
-                            <i id="new" class="fa-solid fa-temperature-low"></i>
-                            <p id="new">Cadastrar</p>
+                            <a href="pages/index.html">
+                                <i id="new" class="fa-solid fa-temperature-low"></i>
+                                <p id="new">Cadastrar</p>
+                            </a>
                         </li>
                     </ul>
                 </section>
@@ -177,40 +183,37 @@
                     </div>
                 </div>
             </section>
-
-            <h1 class="title">Cadastrar Produto</h1>
-            
-            <section class="container containerNew" name="cad" id="cad">
-                <div class="containerSlider csForm">
-                    <input type="radio" name="dot" id="one">
-                    <input type="radio" name="dot" id="two">
-                    <div class="main-card">
-                        <div class="cards">
-                            <div class="card card-new">
-                                <div class="content">
-                                    <div class="img">
-                                        <img src="cad.png" alt="">
-                                    </div>
-                                    <div class="details">
-                                        <div class="name input-container">
-                                            <input type="text" placeholder="Nome do produto">
-                                        </div>
-                                        <div class="job input-container">
-                                            <input type="number" name="" id="" placeholder="Preço do produto">
-                                        </div>
-                                        <div class="name input-container submit">
-                                            <input type="submit" value="Salvar">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <footer>
+                <div class="footer-content">
+                    <h3>Foolish Developer</h3>
+                    <p>Raj Template is a blog website where you will find great tutorials on web design and development. Here each tutorial is beautifully described step by step with the required source code.</p>
+                    <ul class="socials">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    <p>copyright &copy; 
+                        <a href="#">Beatriz</a> 
+                        <a href="#">Henrique</a> 
+                        <a href="#">Kauã</a> 
+                        <a href="#">Raphael</a>
+                    </p>
+                    <div class="footer-menu">
+                        <ul class="f-menu">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">Blog</a></li>
+                        </ul>
                     </div>
                 </div>
-            </section>
+            </footer>
     </main>
 </body>
 <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
 <script src="script.js"></script>
-
 </html>

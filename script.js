@@ -15,17 +15,14 @@ items.forEach(item => {
     item.addEventListener('click', (e) => {
         if (e.target.id == 'home') {
             ts.style.top = '0px'
-            window.location.href = "#"
         }
 
         if (e.target.id == 'products') {
             ts.style.top = '64px'
-            window.location.href = "#prods"
         }
 
         if (e.target.id == 'new') {
             ts.style.top = '128px'
-            window.location.href = "#cad"
         }
 
         document.querySelector('aside').classList.toggle('openbar');
